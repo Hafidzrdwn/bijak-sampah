@@ -9,9 +9,9 @@
       </h2>
     </div>
 
-    <div class="row justify-content-center align-items-start">
-      <div class="col-lg-4" v-for="c in clasess" :key="c.id">
-        <div class="card">
+    <div class="row justify-content-center align-items-start row-gap-4">
+      <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-6" v-for="c in clasess" :key="c.id">
+        <div class="card" id="card-materi">
           <img src="/images/materi-bg.jpg" class="card-img-top" alt="Background Materi">
           <div class="card-body text-center pb-4">
             <h5 class="mb-4">{{ c.title }}</h5>
