@@ -10,10 +10,11 @@
       </h2>
     </div>
 
-    <div class="row justify-content-between align-items-center">
+    <div class="row justify-content-center justify-content-xl-between justify-content-lg-between align-items-center">
       <div class="col-lg-6">
-        <div class="row justify-content-between align-items-center flex-wrap row-gap-5">
-          <div class="col-lg-6" v-for="c in categories" :key="c.id">
+        <div
+          class="row justify-content-between ju align-items-start align-items-xl-center flex-wrap row-gap-3 row-gap-xl-5 row-gap-lg-4 row-gap-md-4">
+          <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-6" v-for="c in categories" :key="c.id">
             <div class="card py-2 border-0 text-center shadow-sm">
               <div class="card-body">
                 <img :src="c.image" alt="Category 1" width="60" height="60">
@@ -24,8 +25,8 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-6">
-        <img src="/images/category.png" alt="Category Image" class="img-fluid rounded">
+      <div class="col-12 col-xl-6 col-lg-6 col-md-12">
+        <img src="/images/category.png" alt="Category Image" class="w-100 img-fluid rounded">
       </div>
     </div>
   </div>
