@@ -148,22 +148,22 @@ h1.text-hero {
   width: 75%;
 }
 
-@media screen and (max-width: 768px){
-  
-}
-
 @media screen and (max-width: 576px){
-    p.text-subtitle {
-      font-size: 16px;
-    }
-  
-    p.text-desc {
-      font-size: 13px;
-      line-height: 25px;
-    }
-  
-    h1.text-hero {
-      font-size: 48px;
-      color: #24ba97;
-    }
+  p.text-subtitle {
+    font-size: 16px;
+  }
+
+  p.text-desc {
+    font-size: 13px;
+    line-height: 25px;
+  }
+
+  h1.text-hero {
+    font-size: 48px;
+    color: #24ba97;
+  }
+
+  .carousel-inner {
+    max-height: 235px !important;
+  }
 }

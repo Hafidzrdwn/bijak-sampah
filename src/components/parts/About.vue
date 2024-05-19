@@ -10,8 +10,8 @@
       </h2>
     </div>
 
-    <div class="row justify-content-between align-items-center">
-      <div class="col-lg-6">
+    <div class="row justify-content-between align-items-start align-items-xl-center">
+      <div class="col-lg-6 mb-4 mb-xl-0 mb-lg-0">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
