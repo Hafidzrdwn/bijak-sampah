@@ -1,7 +1,7 @@
 <template>
   <div class="pt-3 pb-4">
 
-    <div class="row w-100">
+    <div class="row w-100 mx-auto">
       <div class="col-lg-12">
         <div class="card border-0 shadow-sm" id="card-profile">
           <div class="card-body row-gap-2">
