@@ -14,7 +14,7 @@
         <div class="card">
           <img src="/images/materi-bg.jpg" class="card-img-top" alt="Background Materi">
           <div class="card-body text-center pb-4">
-            <h6 class="mb-4">{{ c.title }}</h6>
+            <h5 class="mb-4">{{ c.title }}</h5>
             <router-link :to="'/materi/' + c.id" class="btn btn-web-primary">Baca Sekarang</router-link>
           </div>
         </div>
