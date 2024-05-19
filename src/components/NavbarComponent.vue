@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary py-3 border-bottom border-web-primary fixed-top">
       <div class="container">
         <router-link class="navbar-brand d-flex align-items-center" to="/">
-          <img src="/images/webicon.png" alt="Icon Website" width="40" height="40">
+          <img src="/webicon.png" alt="Icon Website" width="40" height="40">
           <span class="ms-2 fw-bold text-web-primary">BijakSampah</span>
         </router-link>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
