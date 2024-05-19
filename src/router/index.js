@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import Materi from '../views/Materi.vue'
 import DetailMateri from '../views/DetailMateri.vue'
 import Quiz from '../views/Quiz.vue'
+import QuizPage from '../views/QuizPage.vue'
 
 const routes = [
   {
@@ -32,11 +33,18 @@ const routes = [
   },
   {
     path: '/quiz',
-    alias: ['/'],
     name: 'Quiz',
     component: Quiz,
     meta: {
       title: 'Quiz'
+    }
+  },
+  {
+    path: '/quiz/:id',
+    name: 'DetailQuiz',
+    component: QuizPage,
+    meta: {
+      title: 'Halaman Quiz'
     }
   }
 ]
