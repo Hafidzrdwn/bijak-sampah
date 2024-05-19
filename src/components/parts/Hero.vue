@@ -1,7 +1,8 @@
 <template>
   <div class="py-5">
     <div class="row justify-content-between align-items-center">
-      <div class="col-lg-6">
+      <div
+        class="col-12 col-xl-6 col-lg-6 col-md-12 mb-xl-0 mb-lg-0 mb-md-4 mb-4 text-lg-start text-md-start text-sm-center text-center">
         <p class="m-0 text-subtitle text-web-primary mb-2">"Bijak Mengelola, Lingkungan Terjaga"</p>
         <h1 class="fw-bold text-hero text-web-primary">BijakSampah</h1>
         <p class="text-muted text-desc mt-3">
@@ -12,7 +13,7 @@
           <a href="#about" class="btn btn-web-outline-primary">Get Started</a>
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-12 col-xl-6 col-lg-6 col-md-12">
         <img src="/images/hero.png" alt="Hero Image" class="img-fluid">
       </div>
     </div>
