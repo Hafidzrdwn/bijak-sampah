@@ -148,6 +148,12 @@ h1.text-hero {
   width: 75%;
 }
 
+@media screen and (max-width: 680px){
+  #card-profile .card-text {
+    width: 95%;
+  }
+}
+
 @media screen and (max-width: 576px){
   p.text-subtitle {
     font-size: 16px;
@@ -165,5 +171,10 @@ h1.text-hero {
 
   .carousel-inner {
     max-height: 235px !important;
+  }
+
+  #card-profile .card-text {
+    width: 100%;
+    font-size: 14px;
   }
 }
