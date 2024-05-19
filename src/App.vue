@@ -1,17 +1,14 @@
 <script setup>
 import NavbarComponent from './components/NavbarComponent.vue';
-
+import FooterComponent from './components/FooterComponent.vue';
 </script>
 
 <template>
-  <div>
-    <NavbarComponent />
-    <main>  
-      <router-view ></router-view>  
-    </main>
+  <NavbarComponent />
+  <div id="container" class="mt-4 container">
+    <router-view></router-view>
   </div>
+  <FooterComponent />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

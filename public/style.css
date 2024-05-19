@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-color: #f7f7f7;
+}
+
+#container {
+  margin-top: 85px !important;
+  min-height: 100vh;
+}
+
+.text-web-primary {
+  color: #21caa2 !important;
+}
+
+.bg-web-primary {
+  background-color: #21caa2 !important;
+}
+
+.border-web-primary {
+  border-color: #21caa2 !important;
+}
+
+.nav-link {
+  color: #777;
+  letter-spacing: 1px;
+}
+
+.nav-link.active {
+  color: #24ba97 !important;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.navbar-brand span {
+  letter-spacing: 1px;
+}
+
+button.navbar-toggler {
+  border-color: #21caa2;
+}
+button.navbar-toggler:focus {
+  border: none;
+  box-shadow: #21caa2 0 0 0 0.2rem;
+}
+
+p.text-subtitle {
+  font-size: 18px;
+}
+p.text-desc {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+h1.text-hero {
+  font-size: 65px;
+  color: #24ba97;
+}
+
+.btn.btn-web-primary {
+  background-color: #21caa2;
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px !important;
+}
+
+.btn.btn-web-primary:hover,
+.btn.btn-web-primary:active,
+.btn.btn-web-outline-primary:hover,
+.btn.btn-web-outline-primary:active {
+  background-color: #24ba97 !important;
+  color: #fff !important;
+}
+
+.btn.btn-web-outline-primary {
+  background-color: transparent;
+  border: 1px solid #21caa2;
+  color: #21caa2;
+  padding: 10px 30px;
+  border-radius: 5px !important;
+}
+
+.header-wrapper h6 {
+  font-size: 18px;
+  color: #21caa2;
+}
+
+.header-wrapper h2 {
+  color: #333;
+}
+
+.carousel-inner {
+  max-height: 350px !important;
+}
+
+.about-text p {
+  text-align: justify;
+  color: #3f3f3f;
+  text-indent: 40px;
+  line-height: 26px;
+}
+
+.card-title {
+  font-size: 17px;
+  color: #333;
+  font-weight: 500;
+}
+
+#card-profile {
+  height: 275px;
+  background-image: url('/public/images/bg-image.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+#card-profile::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 0;
+}
+
+#card-profile .card-body {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#card-profile .card-text {
+  width: 75%;
+}

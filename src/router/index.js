@@ -1,7 +1,8 @@
-import { createRouter, createMemoryHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-
-
+import Materi from '../views/Materi.vue'
+import DetailMateri from '../views/DetailMateri.vue'
+import Quiz from '../views/Quiz.vue'
 
 const routes = [
   {
@@ -12,11 +13,36 @@ const routes = [
     meta: {
       title: 'Home'
     }
+  },
+  {
+    path: '/materi',
+    name: 'Materi',
+    component: Materi,
+    meta: {
+      title: 'Daftar Materi'
+    }
+  },
+  {
+    path: '/materi/:id',
+    name: 'DetailMateri',
+    component: DetailMateri,
+    meta: {
+      title: 'Detail Materi'
+    }
+  },
+  {
+    path: '/quiz',
+    alias: ['/'],
+    name: 'Quiz',
+    component: Quiz,
+    meta: {
+      title: 'Quiz'
+    }
   }
 ]
 
 const router = createRouter({
-  history: createMemoryHistory(),
+  history: createWebHistory(),
   routes
 })
 
