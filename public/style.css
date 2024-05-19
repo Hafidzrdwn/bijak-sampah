@@ -115,7 +115,7 @@ h1.text-hero {
 
 #card-profile {
   height: 275px;
-  background-image: url('/public/images/bg-image.jpg');
+  background-image: url('./images/bg-image.jpg');
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
